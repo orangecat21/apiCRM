@@ -1,5 +1,5 @@
 module.exports.getAll = function(req,res) {
-
+    res.json({message: 'Cat'});
 }
 
 module.exports.getById = function(req,res) {
